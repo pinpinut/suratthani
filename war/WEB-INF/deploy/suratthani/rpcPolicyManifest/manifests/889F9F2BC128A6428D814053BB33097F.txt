@@ -1,0 +1,2 @@
+serviceClass: th.ac.suratthani.client.GreetingService
+path: 37233E2F2B54DECFCA7DEFE06FF74298.gwt.rpc
