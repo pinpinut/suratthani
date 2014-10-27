@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +42,7 @@
 <script src="js/pixi.js"></script>
 <script src="js/Math2.js"></script>
 <script src="js/bunnyBenchMark.js"></script>
-
+<script src="js/gistfile1.js"></script>
 <script>  
 			if (typeof Function.prototype.bind != 'function') {
 			  Function.prototype.bind = (function () {
@@ -70,27 +72,49 @@
 $(function(){
   $("#header").load("header.html"); 
   $("#footer").load("footer.html"); 
+
 });
 </script>
 </head>
-
 <body>
 <div id="header"></div>
 <br>
-<div class ="span4">
-	<center><h2>LogIn</h2>	</center>	
-				
-<center><div style="width: 250px;height: 150px;background-color:#f3f3f3; border-radius: 6px 6px 0 0;">
-<form action="chkLogin.jsp" method="post" name="login">
-		
-User : <input type="text" name="user" id="user"></br>
-Password : <input type="password" name="pass" id="pass"></br>
-<input type="submit" value="Login" name="login">
+<br>
+<div class="span4">
+<center><h2>LogIn Here</h2></center>
+
+     <form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" >Username</label>
+    <div class="controls">
+      <input type="text" id="username" placeholder="User">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" >Password</label>
+    <div class="controls">
+      <input type="password" id="password" placeholder="Password">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox"> Remember me
+      </label>
+      <button type="submit" class="btn">Sign in</button>
+    </div>
+  </div>
 </form>
-</div></center>
+ 
+</ul>
+    
+ 
+
 </div>
 
 
+
 <div id="footer"></div>
+
 </body>
 </html>

@@ -4,24 +4,22 @@
  
  
 
-	String strUsername = request.getParameter("user");
-	String strPassword = request.getParameter("pass");
-
+String strUsername = request.getParameter("username");
+String strPassword = request.getParameter("password");
 	//Query DB
 	String dbUsername = "admin";
 	String dbPassword = "1234";
-	String dbName = "admin";
+	String dbName = "pin and bow";
 	
+	
+
 	if(strUsername.equals(dbUsername) && strPassword.equals(dbPassword)) {
 		session.setAttribute("username_sess",dbUsername);
 		session.setAttribute("name_sess",dbName);
 		response.sendRedirect("index.jsp");
 	} else {
-		%>
-		<script>alert("Username / Password incorrect !! ");window.open("login.html", "_self");</script>
-		<%
+
+           out.println("Username / Password incorrect !! ");
 	}
 
-%>
-
-  
+  %>

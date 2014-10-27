@@ -1,3 +1,4 @@
+
 <%
 	String username_sess = (String)session.getAttribute("username_sess");
 	String name_sess = (String)session.getAttribute("name_sess");
@@ -78,12 +79,15 @@ $(function(){
   $("#ascroller").load("scroller.txt");
 });
 </script>
+
+            
+
 </head>
 
 <body>
 
 	<div id="header"></div>
-
+ 
 <br>
 <marquee behavior="scroll" scrollamount="3" direction="left" >
 <!-- <div id="scroller" style="color:black;"> -->
@@ -91,6 +95,10 @@ $(function(){
 <!-- </div> -->
 </marquee>
 
+
+ 
+    
+        
 	<!-- Page Container -->
 	<article class="container">
 
@@ -99,7 +107,7 @@ $(function(){
 		<section class="row-fluid">
 
 			<div class="span5">
-				<img class="img-rounded" src="pic/sue.jpg" alt="">
+				<img class="img-rounded" src="pic/sue.jpg" alt="" >
 			</div>
 			<section class="span7">
 				
