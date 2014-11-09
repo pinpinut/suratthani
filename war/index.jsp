@@ -80,11 +80,13 @@ $(function(){
 });
 </script>
 
+
             
 
 </head>
 
 <body>
+
 
 	<div id="header"></div>
  
@@ -96,8 +98,7 @@ $(function(){
 </marquee>
 
 
- 
-    
+
         
 	<!-- Page Container -->
 	<article class="container">
@@ -143,7 +144,7 @@ $(function(){
 
 		<section class="row">
 			<div class="span12">
-				<h2>Top of the beaches in Surat Thani</h2>
+				<h2>Top of the beaches in Surat Thani <div style="float: right"><a href="travelplace.html">more+</a></div></h2>
 			</div>
 
 			<!-- Testimony 1 -->

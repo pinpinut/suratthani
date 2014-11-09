@@ -1,0 +1,46 @@
+[ 
+
+{ 
+		"name" : "Nangyuan Island",
+		"info" : "Nangyuan Island or Koh nangyuan It is place of tranquility and serenity and is a perfect place to unwind from the rigors of travel, or for the more adventurous a chance to dive into an exciting new experience.",
+		"info2": "A secret waiting to be discovered and located only 15 minutes from Koh Tao. Nangyuan has one of the most beautiful beaches where you can sit and enjoy quiet sunsets on the beach, no cars or hustle or bustle.",
+	 	"img"  : "pic/1298259601.jpg"
+	 	
+		
+	},
+
+{ 
+		"name" : "Samui Island",
+		"info" : "Samui Island or Koh Samui is an island off the east coast of the Kra Isthmus in Thailand. Geographically in the Chumphon Archipelago, it is administratively part of Surat Thani Province. Ko Samui is Thailand's second-largest island after Phuket, with an area of 228.7 km2, a population of over 63,000 and an annual tourist population of 1.5 million. ",
+		"info2":  "Abundant natural resources, white sandy beaches, coral reefs, and coconut trees are present on the island.",
+		"img"  : "pic/stn_att660004002.JPG"
+	},
+{ 
+		"name" : "Pha Ngan Island",
+		"info" : "Ko Pha-Ngan is famous for its ability to party, attracting a crowd of nature lovers and shoestring wanderers  the kind of folks happy to sleep in a simple reed woven bungalow or in a hammock strung between two palms. Ko Samui  is rebellious little sister attracts backpackers like no other place in Thailand for its no-worries attitude and famous Full Moon parties.",
+		"info2": " This is the kind of place where young revellers can slurp their booze buckets without interruption until dawn",
+		"img"  : "pic/stn_att660049006.jpg"
+	},
+	{ 
+		"name" : "Mu Koh Ang Thong National Park",
+		"info" : "Ideal for unspoiled marine nature, this national park is composed of 50 islands. The most spectacular viewpoint is located at the top of Koh Wua Ta Lap which needs some climbing effort, but is worth seeing the infinite panoramic view of the Gulf of Thailand." ,
+	 		"info2":"Another highlight is in Koh Mae Ko with a huge emerald lagoon situated in the middle of the limestone mountain.",
+		
+	 	"img"  : "pic/mukoh.jpg"
+	 	
+		
+	},
+
+{ 
+		"name" : "Khao Sok National Park",
+		"info" : "Established as a national park in 1980, the Khao Sok National Park is a virgin rainforest surrounded by limestone mountain ranges and high cliffs. With an area of approximately 646 square kilometers, the main attractions in the park include Namtok Mae Yai and Namtok Sip Ed Chan which can be reached by car while other waterfalls and caves are accessible by foot.",
+		"info2":  "The area is home to wildlife animals like elephants, leopard, serow, langurs, tigers and bear. Rare flowers can also be found here, but what most visitors are looking forward to see is the Bua Phut or Rafflesia kerri meyer, a flower which can only be found here and is claimed as the largest flower in the world with its diameter reaching up to 80 centimeters when in full bloom during October and December. Note that a 5-8 hour walk is required to see such flower. The park’s and other entrepreneur’s bungalows, camping area and raft-houses are available at the park. ",
+		"img"  : "pic/khaosok.JPG"
+	},
+{ 
+		"name" : "Tai Rom Yen National Park",
+		"info" : "With a total area of 265,625 rai coverd by virgin forests with rare plants, the park covers areas in Ban Na San, Kanchanadit and Wiang Sa districts. The zone was declared national park on 31 December 1991. Wild animals such as elephants, mountain goats, tapirs, chevrotains, and wild boars can be found in the park while the mountain peak is covered by mist all year round. ",
+		"info2": " Attractions include the Tat Fa Waterfall, Muang Thuat Waterfall, Khamin Cave and Camp 180 as well as Camp 357.",
+		"img"  : "pic/tairom.jpg"
+	}
+	]
