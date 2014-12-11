@@ -134,7 +134,7 @@ $(function(){
 					VI). The monthon was renamed Surat accordingly. In 1926 it was
 					abolished and incorporated into monthon Nakhon Si Thammarat. In
 					1933 the monthon was dissolved, so the province became the first
-					level administrative subdivision.<a href="#">read more>></a>
+					level administrative subdivision.<a href="aboutsuratthani.html">read more>></a>
 				</p>
 
 			</section>
