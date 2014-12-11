@@ -74,7 +74,7 @@
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script> 
 $(function(){
-  $("#header").load("header.html"); 
+  $("#header").load("header.jsp"); 
   $("#footer").load("footer.html"); 
   $("#ascroller").load("scroller.txt");
 });

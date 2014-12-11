@@ -141,6 +141,31 @@ footer a:hover {
 /*------------------------------------*\
 	$Components
 \*------------------------------------*/
+.bubblee {
+	position: relative;
+	width:  414px;
+	height: 100%;
+	padding: 20px 20px 10px;
+	margin-bottom: 20px;
+	color: #49535F;
+	background: #ECEFF2;
+	border: #7F7F7F solid 0px;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+			border-radius: 4px;
+}
+.bubblee:after {
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 10px;
+	border-style: solid;
+	border-width: 10px 10px 0;
+	border-color: #ECEFF2 transparent;
+	display: block;
+	width: 0;
+	z-index: 0;
+}
 
 .bubble {
 	position: relative;

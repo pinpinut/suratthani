@@ -5850,3 +5850,9 @@ button.close {
     overflow: visible !important;
   }
 }
+
+div.centerdiv {
+	width: 50%;
+	margin-left: 500px;
+	margin-right: auto;
+}

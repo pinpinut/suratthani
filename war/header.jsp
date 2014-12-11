@@ -1,4 +1,4 @@
-
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <div class="container">
 
 </div>
@@ -40,15 +40,24 @@
 
 						<nav id="main-menu" class="nav-collapse collapse">
 							<ul class="nav pull-right">
+<%
+String username = (String)session.getAttribute("name_sess");
+if(username != null)
+	out.println("<li><a>Hello " + username + "</a></li>");
 
+%>
 								<li><a href="index.jsp">Home</a></li>
-								<li><a href="#">About Surat Thani</a></li>
-								<li><a href="#">Hotel</a></li>
+								<li><a href="aboutsuratthani.html">About Surat Thani</a></li>
+								<li><a href="hotel.html">Hotel</a></li>
 
 								<li><a href="travelplace.html">Travel Place</a></li>
 								<li><a href="contact.html">Contact Us</a></li>
-                                <li><a href="login.html">Login</a></li>
-
+<%
+if(session.getAttribute("name_sess") != null)
+	out.println("<li><a href='logout.jsp'>Logout</a></li>");
+else
+	out.println("<li><a href='login.html'>Login</a></li>");
+%>
 
 							</ul>
 						</nav>

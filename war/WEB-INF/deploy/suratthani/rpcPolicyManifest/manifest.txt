@@ -1,2 +1,3 @@
 # Module suratthani
 # RPC service class, partial path of RPC policy file
+th.ac.suratthani.client.GreetingService, 37233E2F2B54DECFCA7DEFE06FF74298.gwt.rpc

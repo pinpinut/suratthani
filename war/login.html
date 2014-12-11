@@ -70,7 +70,7 @@
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script> 
 $(function(){
-  $("#header").load("header.html"); 
+  $("#header").load("header.jsp"); 
   $("#footer").load("footer.html"); 
 
 });
@@ -83,17 +83,17 @@ $(function(){
 <div class="span4">
 <center><h2>LogIn Here</h2></center>
 
-     <form class="form-horizontal">
+     <form class="form-horizontal" action="chkLogin.jsp" method="POST">
   <div class="control-group">
     <label class="control-label" >Username</label>
     <div class="controls">
-      <input type="text" id="username" placeholder="User">
+      <input type="text" id="username" name="username" placeholder="User">
     </div>
   </div>
   <div class="control-group">
     <label class="control-label" >Password</label>
     <div class="controls">
-      <input type="password" id="password" placeholder="Password">
+      <input type="password" id="password" name="password" placeholder="Password">
     </div>
   </div>
   <div class="control-group">
